@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faces-config version="1.2" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd">
+	
+	<application>
+		<navigation-handler>org.primefaces.optimus.navigationhandler.ViewIdBasedNavigationHandler</navigation-handler>
+	</application>
+	
+	<managed-bean>
+		<managed-bean-name>tableBean</managed-bean-name>
+		<managed-bean-class>org.primefaces.sandbox.view.TableBean</managed-bean-class>
+		<managed-bean-class>request</managed-bean-class>
+	</managed-bean>
+	
+</faces-config>

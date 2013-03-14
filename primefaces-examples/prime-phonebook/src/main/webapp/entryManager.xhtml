@@ -1,0 +1,114 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.prime.com.tr/ui"
+	template="/template/main.xhtml">
+	
+	<ui:define name="head">
+		<style type="text/css">
+			.ui-datatable table {
+				width:95%;
+			}
+			
+			.label {
+				width:20%;
+				padding:4px;
+			}
+
+			.value {
+				width:80%;
+				padding:4px;
+			}
+			
+			.grid {
+				width:100%;
+			}
+			
+			.ui-widget, .ui-widget .ui-widget {
+				font-size:12px !important;
+			}
+		</style>
+	</ui:define>
+	
+	<ui:define name="content">
+			
+		<h:form>	
+		
+			<p:growl id="growl" showDetail="true" />
+			
+			<p:commandLink oncomplete="dialog.show();" title="New Entry" actionListener="#{entryManager.resetEntry}"
+				process="detail" update="detail">
+				<p:graphicImage value="/resources/images/newentry.png" style="border:0;"/>
+			</p:commandLink>
+	
+		
+			<p:dataTable id="entries" value="#{entryManager.entries}" var="entry" paginatorAlwaysVisible="false"
+					emptyMessage="No entries found" rows="5" paginator="true" dynamic="true"
+					selection="#{entryManager.entry}" selectionMode="single" onselectComplete="dialog.show()" update="detail">
+				<p:column>
+					<f:facet name="header"><h:outputText value="Firstname" /></f:facet>
+					<h:outputText value="#{entry.firstname}" />
+				</p:column>
+				
+				<p:column>
+					<f:facet name="header"><h:outputText value="Lastname" /></f:facet>
+					<h:outputText value="#{entry.lastname}" />
+				</p:column>
+				
+				<p:column>
+					<f:facet name="header"><h:outputText value="Email" /></f:facet>
+					<h:outputText value="#{entry.email}" />
+				</p:column>
+			</p:dataTable>
+		
+			<h:commandLink title="Export to Excel">
+				<h:graphicImage value="/resources/images/excel.png" style="border:0"/>
+				<p:dataExporter type="xls" target="entries" fileName="Entries"/>
+			</h:commandLink>
+		
+			<h:commandLink title="Export to PDF">
+				<h:graphicImage value="/resources/images/pdf.png" style="border:0"/>
+				<p:dataExporter type="pdf" target="entries" fileName="Entries"/>
+			</h:commandLink>
+			
+			<p:dialog header="Entry Details" widgetVar="dialog" fixedCenter="true" modal="true" draggable="false" width="300">
+					<h:panelGrid id="detail" columns="2" styleClass="grid" columnClasses="label,value">
+						<h:outputLabel for="firstname" value="Firstname: " />
+						<h:inputText id="firstname" value="#{entryManager.entry.firstname}" />
+						
+						<h:outputLabel for="lastname" value="Lastname: " />
+						<h:inputText id="lastname" value="#{entryManager.entry.lastname}" />
+						
+						<h:outputLabel for="email" value="Email: " />
+						<h:inputText id="email" value="#{entryManager.entry.email}" />
+						
+						<h:outputLabel for="home" value="Home: " />
+						<h:inputText id="home" value="#{entryManager.entry.home}" />
+						
+						<h:outputLabel for="mobile" value="Mobile: " />
+						<h:inputText id="mobile" value="#{entryManager.entry.mobile}" />
+						
+						<h:outputLabel for="work" value="Work: " />
+						<h:inputText id="work" value="#{entryManager.entry.work}" />
+						
+						<h:outputLabel for="fax" value="Fax: " />
+						<h:inputText id="fax" value="#{entryManager.entry.fax}" />
+						
+						<h:outputText />
+						<h:panelGroup>
+							<p:commandButton value="Delete" actionListener="#{entryManager.delete}" update="detail,growl,entries" oncomplete="dialog.hide();"
+								style="display: #{entryManager.entry.persisted ? 'inline' : 'none'}">
+							</p:commandButton>
+							<p:commandButton value="Save" actionListener="#{entryManager.save}" update="detail,growl,entries" oncomplete="dialog.hide();"/>
+						</h:panelGroup>
+						
+					</h:panelGrid>
+			</p:dialog>
+		
+		</h:form>
+		
+		
+	</ui:define>
+  
+</ui:composition>

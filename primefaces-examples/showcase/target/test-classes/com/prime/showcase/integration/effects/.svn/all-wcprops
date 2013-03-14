@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/7001/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/effects
+END
+EffectsOnLoadIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/7001/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/effects/EffectsOnLoadIntegrationTest.java
+END
+EffectsCatalogIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/6724/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/effects/EffectsCatalogIntegrationTest.java
+END
+EffectsTargetIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/6617/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/effects/EffectsTargetIntegrationTest.java
+END

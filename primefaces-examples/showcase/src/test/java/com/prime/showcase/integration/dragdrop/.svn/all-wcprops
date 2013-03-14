@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6988/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dragdrop
+END
+DragDropFMIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/6736/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dragdrop/DragDropFMIntegrationTest.java
+END
+DragDropBasicIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/6988/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dragdrop/DragDropBasicIntegrationTest.java
+END
+DragDropDataTableIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/6736/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dragdrop/DragDropDataTableIntegrationTest.java
+END
+DragDropDataGridIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/6736/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dragdrop/DragDropDataGridIntegrationTest.java
+END

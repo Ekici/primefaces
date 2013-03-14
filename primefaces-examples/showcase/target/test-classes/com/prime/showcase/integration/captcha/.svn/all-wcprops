@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/6515/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/captcha
+END
+CaptchaCustomIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/6515/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/captcha/CaptchaCustomIntegrationTest.java
+END
+CaptchaSimpleIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/6515/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/captcha/CaptchaSimpleIntegrationTest.java
+END

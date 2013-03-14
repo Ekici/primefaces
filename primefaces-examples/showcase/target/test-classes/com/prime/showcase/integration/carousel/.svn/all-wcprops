@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6976/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/carousel
+END
+CarouselTestingHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/6707/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/carousel/CarouselTestingHelper.java
+END
+CarouselSelectionIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/6976/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/carousel/CarouselSelectionIntegrationTest.java
+END
+CarouselSlideShowIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/6707/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/carousel/CarouselSlideShowIntegrationTest.java
+END
+CarouselTabsIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/6707/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/carousel/CarouselTabsIntegrationTest.java
+END
+CarouselIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/6707/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/carousel/CarouselIntegrationTest.java
+END

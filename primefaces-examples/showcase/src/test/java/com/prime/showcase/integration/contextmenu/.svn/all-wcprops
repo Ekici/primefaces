@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/6365/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/contextmenu
+END
+DataTableContextMenuIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/6365/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/contextmenu/DataTableContextMenuIntegrationTest.java
+END
+TreeTableContextMenuIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/6365/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/contextmenu/TreeTableContextMenuIntegrationTest.java
+END
+ImageSwitchContextMenuIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/6365/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/contextmenu/ImageSwitchContextMenuIntegrationTest.java
+END
+BasicContextMenuIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/6365/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/contextmenu/BasicContextMenuIntegrationTest.java
+END
+TreeContextMenuIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/6365/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/contextmenu/TreeContextMenuIntegrationTest.java
+END

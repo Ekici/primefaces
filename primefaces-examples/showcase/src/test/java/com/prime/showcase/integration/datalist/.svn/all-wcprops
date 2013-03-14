@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6586/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/datalist
+END
+DataListDefinitionIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/6586/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/datalist/DataListDefinitionIntegrationTest.java
+END
+DataListUnorderedIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/6586/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/datalist/DataListUnorderedIntegrationTest.java
+END
+DataListPaginationIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/6586/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/datalist/DataListPaginationIntegrationTest.java
+END
+DataListOrderedIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/6586/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/datalist/DataListOrderedIntegrationTest.java
+END

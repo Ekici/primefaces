@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/6604/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/accordion
+END
+AbstractAccordionIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/6604/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/accordion/AbstractAccordionIntegrationTest.java
+END
+AccordionDataModelIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/6602/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/accordion/AccordionDataModelIntegrationTest.java
+END
+AccordionDynamicIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/6602/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/accordion/AccordionDynamicIntegrationTest.java
+END
+AccordionSimpleIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/6602/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/accordion/AccordionSimpleIntegrationTest.java
+END
+AccordionTabChangeListenerIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/6603/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/accordion/AccordionTabChangeListenerIntegrationTest.java
+END
+AccordionMultipleSelectIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/6602/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/accordion/AccordionMultipleSelectIntegrationTest.java
+END
+AccordionDisabledIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/6602/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/accordion/AccordionDisabledIntegrationTest.java
+END

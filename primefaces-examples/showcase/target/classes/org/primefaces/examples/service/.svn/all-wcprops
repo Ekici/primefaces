@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8315/examples/trunk/showcase/src/main/java/org/primefaces/examples/service
+END
+BookService.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3143/examples/trunk/showcase/src/main/java/org/primefaces/examples/service/BookService.java
+END
+BookServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3143/examples/trunk/showcase/src/main/java/org/primefaces/examples/service/BookServiceImpl.java
+END
+TwitterRSSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/8315/examples/trunk/showcase/src/main/java/org/primefaces/examples/service/TwitterRSSService.java
+END
+TwitterService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3143/examples/trunk/showcase/src/main/java/org/primefaces/examples/service/TwitterService.java
+END
+NewsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3143/examples/trunk/showcase/src/main/java/org/primefaces/examples/service/NewsService.java
+END
+YAHOONewsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/4278/examples/trunk/showcase/src/main/java/org/primefaces/examples/service/YAHOONewsService.java
+END
+YAHOOWeatherService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3143/examples/trunk/showcase/src/main/java/org/primefaces/examples/service/YAHOOWeatherService.java
+END
+WeatherService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3143/examples/trunk/showcase/src/main/java/org/primefaces/examples/service/WeatherService.java
+END

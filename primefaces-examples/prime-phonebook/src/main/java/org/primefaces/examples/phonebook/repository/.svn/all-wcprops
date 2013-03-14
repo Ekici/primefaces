@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1328/examples/trunk/prime-phonebook/src/main/java/org/primefaces/examples/phonebook/repository
+END
+PhoneBookEntryRepositoryJPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1328/examples/trunk/prime-phonebook/src/main/java/org/primefaces/examples/phonebook/repository/PhoneBookEntryRepositoryJPA.java
+END
+PhoneBookRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1328/examples/trunk/prime-phonebook/src/main/java/org/primefaces/examples/phonebook/repository/PhoneBookRepository.java
+END

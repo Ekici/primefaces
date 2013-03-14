@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.prime.com.tr/ui">
+
+<f:view contentType="text/html">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Prime - BookStore</title>
+	<link href="#{request.contextPath}/css/style.css" rel="stylesheet" type="text/css" />
+	<p:resources />
+	<ui:insert name="head"></ui:insert>
+</head>
+
+<body>
+
+	<div id="container">
+
+		<div id="header">
+	    	<div id="logo"><a href="#"><span class="brown"><strong>Prime</strong></span>BookStore</a></div>
+			<div id="menu">
+	        	<ul>
+	        		 <li>
+	        		 	<p:ajaxStatus>
+							<f:facet name="start">
+								<p:graphicImage value="/images/ajaxloading.gif" />
+							</f:facet>
+			
+							<f:facet name="complete">
+								<p:graphicImage value="/images/ajaxloading.png" />
+							</f:facet>
+						</p:ajaxStatus>
+					  </li>
+	        	   <li><a href="http://primefaces.prime.com.tr">Home</a></li>
+	              <li><a href="#{request.contextPath}/searchBooks.jsf">Search</a></li>
+	              <li><a href="#{request.contextPath}/createBook.jsf">Add New</a></li>
+	          </ul>
+	      </div>
+		</div>
+  
+		<div id="main">
+			<div id="sidebar">
+          		<h2>About</h2>
+	          	<p>BookStore is a sample app powered by the <strong>"PrimeFaces UI - Optimus - Guice - JPA"</strong> technology stack. Source code is available at the subversion repository
+	          	of PrimeFaces.</p>
+      		</div>
+      		
+			<div id="text" >
+                <ui:insert name="content">
+                </ui:insert>
+			</div>
+		</div>
+
+    	<div id="footer">
+    		<div id="left_footer"><span class="twenty">&copy; Copyright</span> 2009 <b>Prime</b> Technology </div>
+    		<div id="right_footer">
+				<span class="twenty">Design </span>by <a href="http://www.realitysoftware.ca" title="Website Design">Reality Software</a>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+
+</f:view>
+</html>

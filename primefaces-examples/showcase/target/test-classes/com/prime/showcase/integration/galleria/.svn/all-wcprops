@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/6989/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/galleria
+END
+ContentGalleriaIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/6989/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/galleria/ContentGalleriaIntegrationTest.java
+END
+CustomGalleriaIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/6497/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/galleria/CustomGalleriaIntegrationTest.java
+END
+SimpleGalleriaIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/6497/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/galleria/SimpleGalleriaIntegrationTest.java
+END

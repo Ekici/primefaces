@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/6733/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/autocomplete
+END
+AutoCompleteMultipleIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/6586/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/autocomplete/AutoCompleteMultipleIntegrationTest.java
+END
+AutoCompleteSimpleIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/6733/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/autocomplete/AutoCompleteSimpleIntegrationTest.java
+END
+AbstractAutoCompleteTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/6733/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/autocomplete/AbstractAutoCompleteTest.java
+END
+AutoCompleteListenerIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/6586/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/autocomplete/AutoCompleteListenerIntegrationTest.java
+END
+AutoCompletePojoIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/6586/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/autocomplete/AutoCompletePojoIntegrationTest.java
+END

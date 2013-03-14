@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+
+	<context-param>
+		<param-name>javax.faces.DEFAULT_SUFFIX</param-name>
+		<param-value>.xhtml</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>facelets.SKIP_COMMENTS</param-name>
+		<param-value>true</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>javax.faces.STATE_SAVING_METHOD</param-name>
+		<param-value>client</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>optimus.CONFIG_MODULES</param-name>
+		<param-value>
+			org.primefaces.examples.bookstore.application.RepositoryModule
+		</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>optimus.PERSISTENCE_UNIT</param-name>
+		<param-value>bookstore</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>optimus.CONTEXT_SCAN_PATH</param-name>
+		<param-value>
+			org.primefaces.examples.bookstore
+		</param-value>
+	</context-param>
+	
+	<listener>
+		<listener-class>org.primefaces.optimus.listener.ContextListener</listener-class>
+	</listener>
+	
+	<filter>
+		<filter-name>sessionPerRequestFilter</filter-name>
+		<filter-class>com.wideplay.warp.jpa.SessionPerRequestFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>sessionPerRequestFilter</filter-name>
+		<servlet-name>Faces Servlet</servlet-name>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>Character Encoding Filter</filter-name>
+		<filter-class>org.primefaces.optimus.filter.CharacterEncodingFilter</filter-class>
+	</filter>	
+	<filter-mapping>
+		<filter-name>Character Encoding Filter</filter-name>
+		<servlet-name>Faces Servlet</servlet-name>
+	</filter-mapping>
+	
+	<servlet>
+		<servlet-name>Faces Servlet</servlet-name>
+		<servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Faces Servlet</servlet-name>
+		<url-pattern>*.jsf</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Resource Servlet</servlet-name>
+		<servlet-class>org.primefaces.ui.resource.ResourceServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Resource Servlet</servlet-name>
+		<url-pattern>/primefaces_resources/*</url-pattern>
+	</servlet-mapping>
+
+</web-app>

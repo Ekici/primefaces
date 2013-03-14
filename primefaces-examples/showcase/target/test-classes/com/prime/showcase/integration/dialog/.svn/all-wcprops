@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/6980/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dialog
+END
+DialogBasicIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/6561/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dialog/DialogBasicIntegrationTest.java
+END
+DialogMinMaxIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/6561/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dialog/DialogMinMaxIntegrationTest.java
+END
+DialogFormIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/6561/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dialog/DialogFormIntegrationTest.java
+END
+DialogLoginIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/6980/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dialog/DialogLoginIntegrationTest.java
+END
+DialogDynamicContentIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/6561/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dialog/DialogDynamicContentIntegrationTest.java
+END
+DialogCloseListenerIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/6979/examples/trunk/showcase/src/test/java/com/prime/showcase/integration/dialog/DialogCloseListenerIntegrationTest.java
+END

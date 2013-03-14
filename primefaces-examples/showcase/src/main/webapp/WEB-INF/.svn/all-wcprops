@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8779/examples/trunk/showcase/src/main/webapp/WEB-INF
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4289/examples/trunk/showcase/src/main/webapp/WEB-INF/logging.properties
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/7773/examples/trunk/showcase/src/main/webapp/WEB-INF/faces-config.xml
+END
+appengine-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4289/examples/trunk/showcase/src/main/webapp/WEB-INF/appengine-web.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/8779/examples/trunk/showcase/src/main/webapp/WEB-INF/web.xml
+END
