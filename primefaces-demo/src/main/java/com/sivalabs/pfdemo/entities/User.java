@@ -1,19 +1,28 @@
 /**
  * 
  */
-package com.sivalabs.pfdemo.basics;
+package com.sivalabs.pfdemo.entities;
 
 import java.io.Serializable;
 import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * @author Siva
  *
  */
+@Entity
+@Table(name="USERS")
 public class User implements Serializable
 {
 	private static final long serialVersionUID = 1L;
-	private int userId;
+	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int id;
 	private String userName;
 	private String password;
 	private String firstName;
@@ -25,16 +34,16 @@ public class User implements Serializable
 	public User() {
 	}
 
-	public User(int userId, String userName, String password, String firstName) {
-		this.userId = userId;
+	public User(int id, String userName, String password, String firstName) {
+		this.id = id;
 		this.userName = userName;
 		this.password = password;
 		this.firstName = firstName;
 	}
 	
-	public User(int userId, String userName, String password, String firstName,
+	public User(int id, String userName, String password, String firstName,
 			String lastName, String email, String phone, Date dob) {
-		this.userId = userId;
+		this.id = id;
 		this.userName = userName;
 		this.password = password;
 		this.firstName = firstName;
@@ -45,11 +54,11 @@ public class User implements Serializable
 	}
 
 
-	public int getUserId() {
-		return userId;
+	public int getId() {
+		return id;
 	}
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public void setId(int id) {
+		this.id = id;
 	}
 	public String getUserName() {
 		return userName;

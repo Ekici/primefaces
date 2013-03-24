@@ -8,20 +8,51 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.sivalabs.pfdemo.entities.User;
+
 /**
  * @author Siva
  *
  */
+@Repository
+@Transactional
 public class UserRepository 
 {
-	public static List<User> findAll()
+	@PersistenceContext
+	private EntityManager em;
+	
+	public List<User> findAll()
 	{
-		return UserTable.findAll();
+		return em.createQuery("from User", User.class).getResultList();
 	}
-	public static User findById(Integer userId)
+	public User findById(Integer userId)
 	{
-		return UserTable.findById(userId);
+		 TypedQuery<User> query = em.createQuery("from User where id=?1", User.class);
+		 query.setParameter(1, userId);
+		 List<User> resultList = query.getResultList();
+		 if(!resultList.isEmpty())
+			 return resultList.get(0);
+		 return null;
 	}
+	
+	public User login(String userName, String pwd)
+	{
+		 TypedQuery<User> query = em.createQuery("from User where userName=?1 and password=?2", User.class);
+		 query.setParameter(1, userName);
+		 query.setParameter(2, pwd);
+		 
+		 List<User> resultList = query.getResultList();
+		 if(!resultList.isEmpty())
+			 return resultList.get(0);
+		 return null;
+	}	
 }
 
 class UserTable
@@ -36,11 +67,11 @@ class UserTable
 		User u4 = new User(4, "ram", "ram", "Ramu");
 		User u5 = new User(5, "raj", "raj", "Raju");
 		
-		TABLE.put(u1.getUserId(), u1);
-		TABLE.put(u2.getUserId(), u2);
-		TABLE.put(u3.getUserId(), u3);
-		TABLE.put(u4.getUserId(), u4);
-		TABLE.put(u5.getUserId(), u5);
+		TABLE.put(u1.getId(), u1);
+		TABLE.put(u2.getId(), u2);
+		TABLE.put(u3.getId(), u3);
+		TABLE.put(u4.getId(), u4);
+		TABLE.put(u5.getId(), u5);
 		
 	}
 	public static List<User> findAll()
@@ -55,7 +86,7 @@ class UserTable
 	
 	public static void saveUser(User user)
 	{
-		TABLE.put(user.getUserId(), user);
+		TABLE.put(user.getId(), user);
 	}
 	
 	public static void deleteUser(Integer userId)
