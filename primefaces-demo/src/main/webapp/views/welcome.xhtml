@@ -1,0 +1,71 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                template="/templates/masterLayout.xhtml">
+
+	<ui:define name="bodyContent">
+	
+		
+		<h:form id="loginForm">
+			
+			<p:panel header="User Login Form" style="width:450px;">
+			<p:messages />
+			<h:panelGrid columns="2">
+			    <h:outputLabel for="userName" value="UserName: *" />
+			    <p:inputText id="userName" value="#{userController.loginUser.userName}" label="UserName" required="true" />
+			
+			    <h:outputLabel for="password" value="Password: *" />
+			    <p:password id="password" value="#{userController.loginUser.password}" required="true" label="Password"/>
+			
+			    <f:facet name="footer">
+			        <p:commandButton value="Login" style="margin:0" action="#{userController.doLogin}" update="loginForm"/>
+			    </f:facet>
+			</h:panelGrid>
+			</p:panel>
+			
+		</h:form>
+		<p/>
+		<h:form id="registrationForm">
+		
+			<p:panel header="User Registration Form" style="width:450px;">
+			<p:messages/>
+			<h:panelGrid columns="2">
+			    <h:outputLabel for="userName" value="UserName: *" />
+			    <p:inputText id="userName" value="#{userController.registerUser.userName}" 
+			    				label="UserName" required="true" />
+			
+			    <h:outputLabel for="password" value="Password: *" />
+			    <p:password id="password" value="#{userController.registerUser.password}" 
+			    			required="true" label="Password"/>
+				
+				<h:outputLabel for="firstName" value="FirstName: *" />
+			    <p:inputText id="firstName" value="#{userController.registerUser.firstName}" 
+			    				label="FirstName" required="true" />
+			
+				<h:outputLabel for="lastName" value="LastName: " />
+			    <p:inputText id="lastName" value="#{userController.registerUser.lastName}" 
+			    				label="lastName" required="false" />
+				
+				<h:outputLabel for="email" value="Email: " />
+			    <p:inputText id="email" value="#{userController.registerUser.email}" 
+			    				label="Email" required="false" />
+			
+				<h:outputLabel for="phone" value="Phone: " />
+			    <p:inputText id="phone" value="#{userController.registerUser.phone}" 
+			    				label="phone" required="false" />
+				
+				<h:outputLabel for="dob" value="DOB: " />
+				<p:calendar value="#{userController.registerUser.dob}" id="dob" />
+				
+			    <f:facet name="footer">
+			        <p:commandButton value="Register" style="margin:0" action="#{userController.doRegister}" 
+			        update="registrationForm"/>
+			    </f:facet>
+			</h:panelGrid>
+			</p:panel>
+			
+		</h:form>
+	</ui:define>
+</ui:composition>
